@@ -326,3 +326,42 @@ main > section:nth-of-type(5) > div > div > div p {
     font-size: 14px;
     opacity: 0.8;
 }
+
+/* FOOTER SECTION */
+
+footer {
+    background: #1E1E1E;
+    padding: 60px;
+    text-align: center;
+}
+
+footer > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+footer img {
+    max-height: 50px;
+}
+
+footer > div > div {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+footer > div > div img {
+    width: 30px;
+    height: 30px;
+}
+
+footer p {
+    font-size: 14px;
+    opacity: 0.8;
+    color: white;
+    margin: 0;
+}
